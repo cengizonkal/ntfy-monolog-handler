@@ -1,0 +1,24 @@
+{
+    "name": "conkal/ntfy-monolog-handler",
+    "description": "ntfy monolog handler",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Conkal\\NtfyMonologHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cengiz",
+            "email": "conkal@ciu.edu.tr"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.27"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
